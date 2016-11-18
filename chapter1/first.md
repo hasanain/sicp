@@ -13,4 +13,17 @@
 * 16
 
 ## Exercise 1.2
-    (/ (+ 5 4 (- 2 (- 3 (+ 6 (/ 4 5))))) (* 3 (- 6 2) (- 2 7)))
+    (/ (+ 5 4 (- 2 (- 3 (+ 6 (/ 4 5))))) (* 3 (- 6 2) (- 2 7))) ;-37/150
+    
+## Exercise 1.3
+    (define (sum-of-squares a b c)
+      (cond
+        ((and (> a b) (> b c)) (+ (* a a) (* b b) ))
+        ((and (> a b) (> c b)) (+ (* a a) (* c c) ))
+        (else (+ ( * b b) (* c c)))))
+
+    ;tests
+
+    (sum-of-squares 1 2 3) ; 13
+    (sum-of-squares 3 1 2) ; 13
+    (sum-of-squares 3 2 1) ; 13
