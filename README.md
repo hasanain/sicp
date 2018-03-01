@@ -1,2 +1,4 @@
 # sicp
-Solutions for the sicp book
+
+My solutions to the exercises in SICP.
+
