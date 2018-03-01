@@ -1,7 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [Building Abstractions with Procedures](/building-abstractions-with-procedures.md)
+* Chapter 1: Building Abstractions with Procedures
+* * [The Elements of Programming](/Building Abstractions with Procedures/The Elements of Programming.md)
 
 
 
