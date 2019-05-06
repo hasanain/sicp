@@ -139,12 +139,12 @@ Recursive Process
 Iterative Process
 
 ```scheme
-(define (f n)
+(define (fi n)
   (define (inner a b c n)
-    (if (= n 0)
+    (if (= 0 n)
         c
-        (inner b c (+ (* a 3) (* b 2) c) (- n 1))))
-  (inner 0 1 2 n))
+        (inner (+ a (* 2 b) (* 3 c)) a b (- n 1))))
+  (inner 2 1 0 n))
 ```
 
 ### Exercise 1.12
